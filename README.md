@@ -34,9 +34,9 @@ A fully working career guidance web app that analyzes skill gaps, suggests learn
    python -m spacy download en_core_web_sm
    ```
 
-2. Copy `.env.example` to `.env` and configure:
+2. Copy .env and configure:
    ```bash
-   cp .env.example .env
+   cp .env
    ```
 
 3. Set `MONGO_URL` (required). Use [MongoDB Atlas](https://www.mongodb.com/atlas) free tier or local MongoDB.

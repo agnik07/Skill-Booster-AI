@@ -14,10 +14,50 @@ import {
 import { toast } from 'sonner';
 import { Code2, ExternalLink, Loader2 } from 'lucide-react';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
+// Use environment variable or fallback to localhost
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
 const API = `${BACKEND_URL}/api`;
 
 const PROGRESS_KEY = 'dsa-progress';
+
+// Mock data as fallback when API is unavailable
+const MOCK_DSA_DATA = [
+  {
+    company: "Amazon",
+    topic: "Arrays",
+    problems: [
+      { title: "Two Sum", url: "https://leetcode.com/problems/two-sum", difficulty: "Easy" },
+      { title: "Best Time to Buy and Sell Stock", url: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock", difficulty: "Easy" },
+      { title: "Maximum Subarray", url: "https://leetcode.com/problems/maximum-subarray", difficulty: "Medium" },
+      { title: "3Sum", url: "https://leetcode.com/problems/3sum", difficulty: "Medium" },
+    ]
+  },
+  {
+    company: "Google",
+    topic: "Arrays",
+    problems: [
+      { title: "Two Sum", url: "https://leetcode.com/problems/two-sum", difficulty: "Easy" },
+      { title: "3Sum", url: "https://leetcode.com/problems/3sum", difficulty: "Medium" },
+      { title: "Container With Most Water", url: "https://leetcode.com/problems/container-with-most-water", difficulty: "Medium" },
+    ]
+  },
+  {
+    company: "Meta",
+    topic: "Strings",
+    problems: [
+      { title: "Longest Substring Without Repeating Characters", url: "https://leetcode.com/problems/longest-substring-without-repeating-characters", difficulty: "Medium" },
+      { title: "Valid Parentheses", url: "https://leetcode.com/problems/valid-parentheses", difficulty: "Easy" },
+    ]
+  },
+  {
+    company: "Microsoft",
+    topic: "Trees",
+    problems: [
+      { title: "Validate Binary Search Tree", url: "https://leetcode.com/problems/validate-binary-search-tree", difficulty: "Medium" },
+      { title: "Binary Tree Level Order Traversal", url: "https://leetcode.com/problems/binary-tree-level-order-traversal", difficulty: "Medium" },
+    ]
+  },
+];
 
 function getStoredProgress() {
   try {
@@ -51,8 +91,13 @@ export default function DSATracker() {
         setCompanies(comps);
         if (comps.length && !selectedCompany) setSelectedCompany(comps[0]);
       } catch (err) {
-        toast.error('Failed to load DSA problems');
-        setData([]);
+        console.error('API Error:', err);
+        // Use mock data as fallback when API is unavailable
+        setData(MOCK_DSA_DATA);
+        const comps = [...new Set(MOCK_DSA_DATA.map((d) => d.company))].sort();
+        setCompanies(comps);
+        if (comps.length && !selectedCompany) setSelectedCompany(comps[0]);
+        toast.info('Using demo data. Connect to backend for full DSA problem set.');
       } finally {
         setLoading(false);
       }
@@ -66,7 +111,7 @@ export default function DSATracker() {
   const filteredData = data.filter(
     (d) =>
       d.company === selectedCompany &&
-      (!selectedTopic || d.topic === selectedTopic)
+      (selectedTopic === 'all' || d.topic === selectedTopic)
   );
 
   const toggleProblem = (url) => {
@@ -132,7 +177,7 @@ export default function DSATracker() {
                         <SelectValue placeholder="All topics" />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="">All topics</SelectItem>
+                        <SelectItem value="all">All topics</SelectItem>
                         {topics.map((t) => (
                           <SelectItem key={t} value={t}>
                             {t}

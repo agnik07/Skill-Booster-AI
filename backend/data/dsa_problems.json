@@ -1,0 +1,151 @@
+[
+  {
+    "company": "Amazon",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "Best Time to Buy and Sell Stock", "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock", "difficulty": "Easy"},
+      {"title": "Maximum Subarray", "url": "https://leetcode.com/problems/maximum-subarray", "difficulty": "Medium"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Product of Array Except Self", "url": "https://leetcode.com/problems/product-of-array-except-self", "difficulty": "Medium"},
+      {"title": "Merge Intervals", "url": "https://leetcode.com/problems/merge-intervals", "difficulty": "Medium"},
+      {"title": "Trapping Rain Water", "url": "https://leetcode.com/problems/trapping-rain-water", "difficulty": "Hard"}
+    ]
+  },
+  {
+    "company": "Amazon",
+    "topic": "Strings",
+    "problems": [
+      {"title": "Valid Palindrome", "url": "https://leetcode.com/problems/valid-palindrome", "difficulty": "Easy"},
+      {"title": "Longest Substring Without Repeating Characters", "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters", "difficulty": "Medium"},
+      {"title": "Group Anagrams", "url": "https://leetcode.com/problems/group-anagrams", "difficulty": "Medium"},
+      {"title": "Valid Parentheses", "url": "https://leetcode.com/problems/valid-parentheses", "difficulty": "Easy"}
+    ]
+  },
+  {
+    "company": "Amazon",
+    "topic": "Linked List",
+    "problems": [
+      {"title": "Reverse Linked List", "url": "https://leetcode.com/problems/reverse-linked-list", "difficulty": "Easy"},
+      {"title": "Merge Two Sorted Lists", "url": "https://leetcode.com/problems/merge-two-sorted-lists", "difficulty": "Easy"},
+      {"title": "Linked List Cycle", "url": "https://leetcode.com/problems/linked-list-cycle", "difficulty": "Easy"},
+      {"title": "Copy List with Random Pointer", "url": "https://leetcode.com/problems/copy-list-with-random-pointer", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Amazon",
+    "topic": "Trees",
+    "problems": [
+      {"title": "Maximum Depth of Binary Tree", "url": "https://leetcode.com/problems/maximum-depth-of-binary-tree", "difficulty": "Easy"},
+      {"title": "Validate Binary Search Tree", "url": "https://leetcode.com/problems/validate-binary-search-tree", "difficulty": "Medium"},
+      {"title": "Binary Tree Level Order Traversal", "url": "https://leetcode.com/problems/binary-tree-level-order-traversal", "difficulty": "Medium"},
+      {"title": "Serialize and Deserialize Binary Tree", "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree", "difficulty": "Hard"}
+    ]
+  },
+  {
+    "company": "Google",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Container With Most Water", "url": "https://leetcode.com/problems/container-with-most-water", "difficulty": "Medium"},
+      {"title": "Trapping Rain Water", "url": "https://leetcode.com/problems/trapping-rain-water", "difficulty": "Hard"},
+      {"title": "First Missing Positive", "url": "https://leetcode.com/problems/first-missing-positive", "difficulty": "Hard"}
+    ]
+  },
+  {
+    "company": "Google",
+    "topic": "Graphs",
+    "problems": [
+      {"title": "Number of Islands", "url": "https://leetcode.com/problems/number-of-islands", "difficulty": "Medium"},
+      {"title": "Course Schedule", "url": "https://leetcode.com/problems/course-schedule", "difficulty": "Medium"},
+      {"title": "Word Ladder", "url": "https://leetcode.com/problems/word-ladder", "difficulty": "Hard"},
+      {"title": "Pacific Atlantic Water Flow", "url": "https://leetcode.com/problems/pacific-atlantic-water-flow", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Maximum Subarray", "url": "https://leetcode.com/problems/maximum-subarray", "difficulty": "Medium"},
+      {"title": "Merge Intervals", "url": "https://leetcode.com/problems/merge-intervals", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Microsoft",
+    "topic": "Trees",
+    "problems": [
+      {"title": "Validate Binary Search Tree", "url": "https://leetcode.com/problems/validate-binary-search-tree", "difficulty": "Medium"},
+      {"title": "Binary Tree Level Order Traversal", "url": "https://leetcode.com/problems/binary-tree-level-order-traversal", "difficulty": "Medium"},
+      {"title": "Lowest Common Ancestor of a Binary Tree", "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Meta",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Product of Array Except Self", "url": "https://leetcode.com/problems/product-of-array-except-self", "difficulty": "Medium"},
+      {"title": "Merge Intervals", "url": "https://leetcode.com/problems/merge-intervals", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Meta",
+    "topic": "Strings",
+    "problems": [
+      {"title": "Longest Substring Without Repeating Characters", "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters", "difficulty": "Medium"},
+      {"title": "Valid Parentheses", "url": "https://leetcode.com/problems/valid-parentheses", "difficulty": "Easy"},
+      {"title": "Group Anagrams", "url": "https://leetcode.com/problems/group-anagrams", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Apple",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "Best Time to Buy and Sell Stock", "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock", "difficulty": "Easy"},
+      {"title": "Product of Array Except Self", "url": "https://leetcode.com/problems/product-of-array-except-self", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Netflix",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Maximum Subarray", "url": "https://leetcode.com/problems/maximum-subarray", "difficulty": "Medium"},
+      {"title": "Merge Intervals", "url": "https://leetcode.com/problems/merge-intervals", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Adobe",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Merge Intervals", "url": "https://leetcode.com/problems/merge-intervals", "difficulty": "Medium"},
+      {"title": "Trapping Rain Water", "url": "https://leetcode.com/problems/trapping-rain-water", "difficulty": "Hard"}
+    ]
+  },
+  {
+    "company": "Flipkart",
+    "topic": "Arrays",
+    "problems": [
+      {"title": "Two Sum", "url": "https://leetcode.com/problems/two-sum", "difficulty": "Easy"},
+      {"title": "3Sum", "url": "https://leetcode.com/problems/3sum", "difficulty": "Medium"},
+      {"title": "Maximum Subarray", "url": "https://leetcode.com/problems/maximum-subarray", "difficulty": "Medium"},
+      {"title": "Merge Intervals", "url": "https://leetcode.com/problems/merge-intervals", "difficulty": "Medium"}
+    ]
+  },
+  {
+    "company": "Flipkart",
+    "topic": "Trees",
+    "problems": [
+      {"title": "Binary Tree Level Order Traversal", "url": "https://leetcode.com/problems/binary-tree-level-order-traversal", "difficulty": "Medium"},
+      {"title": "Validate Binary Search Tree", "url": "https://leetcode.com/problems/validate-binary-search-tree", "difficulty": "Medium"}
+    ]
+  }
+]

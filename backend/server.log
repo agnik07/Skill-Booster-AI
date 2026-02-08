@@ -1,0 +1,7 @@
+/Users/agnikdutta/Downloads/Skill-Gap-Analyzer-Using-AIML-main 2/backend/server.py:440: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("shutdown")

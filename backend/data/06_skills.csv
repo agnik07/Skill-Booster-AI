@@ -1,0 +1,76 @@
+skill,category
+python,Programming Languages
+javascript,Programming Languages
+java,Programming Languages
+c++,Programming Languages
+c#,Programming Languages
+typescript,Programming Languages
+go,Programming Languages
+rust,Programming Languages
+ruby,Programming Languages
+php,Programming Languages
+swift,Programming Languages
+kotlin,Programming Languages
+scala,Programming Languages
+r,Programming Languages
+react,Frontend
+angular,Frontend
+vue,Frontend
+html,Frontend
+css,Frontend
+sass,Frontend
+tailwind,Frontend
+bootstrap,Frontend
+webpack,Frontend
+redux,Frontend
+next.js,Frontend
+svelte,Frontend
+express,Backend
+django,Backend
+flask,Backend
+fastapi,Backend
+spring,Backend
+nest.js,Backend
+sql,Databases
+mysql,Databases
+postgresql,Databases
+mongodb,Databases
+redis,Databases
+dynamodb,Databases
+nosql,Databases
+aws,Cloud
+azure,Cloud
+gcp,Cloud
+docker,DevOps
+kubernetes,DevOps
+ci/cd,DevOps
+terraform,DevOps
+jenkins,DevOps
+linux,DevOps
+devops,DevOps
+machine learning,Data Science
+deep learning,Data Science
+tensorflow,Data Science
+pytorch,Data Science
+pandas,Data Science
+numpy,Data Science
+data science,Data Science
+nlp,Data Science
+computer vision,Data Science
+statistics,Data Science
+git,Tools
+jira,Tools
+agile,Tools
+scrum,Tools
+rest api,Architecture
+graphql,Architecture
+microservices,Architecture
+system design,Architecture
+distributed systems,Architecture
+problem solving,Soft Skills
+communication,Soft Skills
+leadership,Soft Skills
+teamwork,Soft Skills
+project management,Soft Skills
+algorithms,DSA
+data structures,DSA
